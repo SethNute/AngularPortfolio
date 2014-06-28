@@ -1,0 +1,12 @@
+[
+	{
+		"name": "Shoes",
+		"href": "#/ShoeCollection",
+		"imageUrl": "images/ajLogo.png"
+	},
+    { 
+        "name": "Basketball",
+		"href": "#/Basketball", 
+		"imageUrl": "images/basketballLogo.png"
+    }
+]
