@@ -49,3 +49,15 @@ ul {
 body {
 	background-color: white;
 }
+
+.rackspaceLogo {
+	display: inline-block;
+}
+
+.vtLogo {
+	display: inline-block;
+}
+
+.qlikviewLogo {
+	display: block;
+}

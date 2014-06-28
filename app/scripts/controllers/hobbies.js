@@ -9,4 +9,7 @@
  */
 angular.module('yeomanProjApp')
   .controller('HobbiesCtrl', function ($scope, $http) {
+  	$http.get('JSON/hobbies.json').success(function(data) {
+    	$scope.hobbs = data.splice();
+  	});
   });
