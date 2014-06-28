@@ -1,0 +1,17 @@
+<html ng-app="yeomanProjApp">
+
+	<head>
+		<link rel="stylesheet" href="styles/shoe-detail-template.css">
+	</head>	
+
+	<body ng-controller="ShoeDetailCtrl">
+
+		<ul class="jordanCollection">
+			<li ng-repeat="shoe in shoes"> 
+				<img ng-src="{{shoe.imageUrl}}">
+			</li>
+		</ul>
+
+	</body>
+
+</html>

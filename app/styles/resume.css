@@ -1,0 +1,51 @@
+ul {
+  list-style-type: none;
+}
+
+#name {
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+}
+
+#email {
+	color: #008B8B;
+}
+
+.contact-Right {
+	float: right;
+}
+
+.contact-Left {
+	float: left;
+}
+
+.contact-Info {
+	padding-bottom: 60px;
+	background-color: #e5e5e5;
+	color: black;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 10px;
+	max-width: 1000px;
+	position:relative;
+	left:0;
+	right:0;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.resume-Body {
+	background-color: #F8F8F8;
+	padding-left: 10px;
+	padding-right: 10px;
+	max-width: 1000px;
+	position:relative;
+	left:0;
+	right:0;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+body {
+	background-color: white;
+}

@@ -1,0 +1,23 @@
+/* Space out content a bit */
+body {
+  padding-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Custom page footer */
+.footer {
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+  background-color: #e5e5e5;
+}
+
+.charmbar {
+	margin-right: 30px;
+}
+
+.githubLogo {
+	float: left;
+}	

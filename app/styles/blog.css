@@ -1,0 +1,21 @@
+.blogContainer {
+	background-color: #e5e5e5;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	max-width: 1000px;
+	left:0;
+	right:0;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.blogLogo {
+	left:0;
+	right:0;
+	margin-left:auto;
+	margin-right:auto;
+	position: relative;
+	display: block;
+}

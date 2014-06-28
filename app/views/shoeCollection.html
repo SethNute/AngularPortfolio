@@ -1,0 +1,36 @@
+<html ng-app="yeomanProjApp">
+	<head>
+		<link rel="stylesheet" href="styles/shoeCollection.css">
+	</head>	
+<body>
+
+	<div class ="JordanSection" ng-controller="ShoeCollectionCtrl">
+		<div class="SearchBar">
+			Search<span class="glyphicon glyphicon-ok"></span>: <input ng-model="queryShoes">
+		</div>
+		<p><a class="btn btn-lg btn-success" ng-href="#/ShoeCollection/Other">Other</a></p>
+
+		<ul class="jordanListLeft">
+			<li ng-repeat="jordanfirst in jordanfirsts | filter:queryShoes | orderBy:orderShoes"> 
+				<a href="#/ShoeCollection/{{jordanfirst.name}}"> <img ng-src="{{jordanfirst.imageUrl}}"> </a>
+			</li>
+		</ul>
+
+		<ul class="jordanListCenter">
+			<li ng-repeat="jordansecond in jordanseconds | filter:queryShoes | orderBy:orderShoes"> 
+				<a href="#/ShoeCollection/{{jordansecond.name}}"> <img ng-src="{{jordansecond.imageUrl}}"> </a>
+			</li>
+		</ul>
+
+		<ul class="jordanListRight">
+			<li ng-repeat="jordanthird in jordanthirds | filter:queryShoes | orderBy:orderShoes"> 
+				<a href="#/ShoeCollection/{{jordanthird.name}}"> <img ng-src="{{jordanthird.imageUrl}}"> </a>
+			</li>
+		</ul>
+
+	</div>
+
+</body>
+
+</html>	
+

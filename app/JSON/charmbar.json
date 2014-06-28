@@ -1,0 +1,27 @@
+[
+	{
+		"name": "twitter",
+		"imageUrl": "images/charmbar/twitter.png",
+		"href": "https://www.twitter.com/SethNute"
+	},
+	{
+		"name": "facebook",
+		"imageUrl": "images/charmbar/facebook.png",
+		"href": "https://www.facebook.com/SRNute"
+	},
+	{
+		"name": "linkedin",
+		"imageUrl": "images/charmbar/linked-in.png",
+		"href": "https://www.linkedin.com/pub/seth-nute/75/896/879"
+	},
+	{
+		"name": "reddit",
+		"imageUrl": "images/charmbar/reddit.png",
+		"href": "http://www.reddit.com/user/beansandtrees/"
+	},
+	{
+		"name": "youtube",
+		"imageUrl": "images/charmbar/you-tube.png",
+		"href": "https://www.youtube.com/channel/UCmLYRgihft9ZB8adGAQGNpg"
+	}
+]
